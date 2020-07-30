@@ -9,3 +9,6 @@ def line(katz_deli)
   puts final_sentence
  end
 end
+
+def take_a_number(katz_deli, person)
+  katz_deli

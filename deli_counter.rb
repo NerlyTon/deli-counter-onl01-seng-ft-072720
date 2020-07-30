@@ -3,7 +3,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else 
     katz_deli.each_with_index do |name, index|
-  puts "#{name}: #{index}"
+  puts "The line is currently: #{index}: #{name}"
     count += 1
   end
  end

@@ -6,6 +6,6 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
   final_sentence += "#{index + 1}. #{name}"
   end
-  puts 
+  puts final_sentence
  end
 end

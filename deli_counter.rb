@@ -5,6 +5,6 @@ def line(katz_deli)
     katz_deli.push("#{name}")
     count += 1
   end
-  puts 
+  puts katz_deli
  end
 end
